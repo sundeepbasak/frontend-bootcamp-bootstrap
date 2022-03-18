@@ -1,0 +1,19 @@
+/* to fix the navbar top which leads to covering half the image */
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* for medium screen min-width is 768px */
+@media(min-width: 768px){   
+    .newsletter-input{
+        width: 50%;
+    }
+}
